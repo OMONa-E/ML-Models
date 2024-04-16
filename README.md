@@ -60,7 +60,44 @@ The dataset, sourced from Taarifa and the Tanzanian Ministry of Water, provides 
 
 **Attribute Information (Data Dictionary):**
 
-- Refer to the provided dataset description for details on attribute information.
+- `amount_tsh`: Total static head (amount of water available to waterpoint).
+- `date_recorded`: The date the row was entered.
+- `funder`: Entity that funded the well.
+- `gps_height`: Altitude of the well.
+- `installer`: Organization that installed the well.
+- `longitude`: GPS coordinate.
+- `latitude`: GPS coordinate.
+- `wpt_name`: Name of the waterpoint (if available).
+- `num_private`: Indicator if the waterpoint is private.
+- `basin`: Geographic water basin.
+- `subvillage`: Geographic location.
+- `region`: Geographic location.
+- `region_code`: Geographic location (coded).
+- `district_code`: Geographic location (coded).
+- `lga`: Geographic location.
+- `ward`: Geographic location.
+- `population`: Population around the well.
+- `public_meeting`: Boolean indicating if a public meeting was held to discuss the waterpoint.
+- `recorded_by`: Group entering this row of data.
+- `scheme_management`: Entity responsible for managing the waterpoint.
+- `scheme_name`: Name of the scheme managing the waterpoint.
+- `permit`: Indicator if the waterpoint is permitted.
+- `construction_year`: Year the waterpoint was constructed.
+- `extraction_type`: The kind of extraction the waterpoint uses.
+- `extraction_type_group`: The kind of extraction the waterpoint uses (grouped).
+- `extraction_type_class`: The kind of extraction the waterpoint uses (class).
+- `management`: How the waterpoint is managed.
+- `management_group`: How the waterpoint is managed (grouped).
+- `payment`: What the water costs.
+- `payment_type`: What the water costs (type).
+- `water_quality`: The quality of the water.
+- `quality_group`: The quality of the water (grouped).
+- `quantity`: The quantity of water.
+- `quantity_group`: The quantity of water (grouped).
+- `source`: The source of the water.
+- `source_type`: The source of the water (type).
+- `source_class`: The source of the water (class).
+- `waterpoint_type`: The kind of waterpoint.
+- `waterpoint_type_group`: The kind of waterpoint (grouped).
 
 Acknowledgements: This Data is taken from the Driven Data website. [Competition Link](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/25/)
-
